@@ -1,0 +1,90 @@
+body {
+  font: 'Raleway', sans-serif;
+    color: rgba(0,0,0,.5);
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: .5em;
+    top: 15%;
+  background: linear-gradient(to right, red , yellow); /* Standard syntax */
+  margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    font: 600 3.5em 'Raleway', sans-serif;
+    color: rgba(0,0,0,.5);
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: .5em;
+    width: 100%;
+}
+
+h3 {
+  font: 900 1.5em 'Raleway', sans-serif;
+    color: rgba(0,0,0,.5);
+    text-align: center;
+    text-transform: none;
+    letter-spacing: 0.01em;
+
+}
+
+input[type="color"] {
+	-webkit-appearance: none;
+	width: 43px;
+	height: 40px;
+	border-color: none;
+	margin: 0;
+
+
+	
+}
+
+.click{
+  position: relative;
+
+  display: block;
+  margin: 30px auto;
+  padding: 10px 30px;
+  color: white;
+
+  overflow: hidden;
+  background-color: #2ecc71;
+
+  border-width: 0;
+  outline: none;
+  border-radius: 2px;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, .6);
+  
+
+}
+.click:hover{
+	padding: 11px 31px;
+	background-color: #27ae60;
+
+
+}
+
+.textbtn{
+	display: block;	
+	align-items: center;
+	justify-content: center;
+	margin-top: 2%;
+	position: relative; 
+
+
+
+}
+.text{
+  font-size: 1rem;
+  outline: none;
+  border: 1px solid gray;
+  border-radius: 5px;  
+  padding: 0.3rem;
+  color: gray;
+  justify-content: center;
+  align-items: center;
+  width:150px;
+}
+
